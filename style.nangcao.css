@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.title {
+    border: 1px solid orangered;
+    background-color: orangered;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 50px 80px 50px 80px; */
+    
+}
+
+.rikk {
+    font-size: 40px;
+}
+.tk1 {
+    border-radius: 15px;
+    padding: 10px 160px;
+    margin-top: 1px;
+    margin-right: 25px;
+}
+
+.tk2 {
+    cursor: pointer;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+
+.ngan {
+    border: 1px solid white;
+    color: rgb(97, 95, 95);
+    text-align: center;
+    padding: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    
+}
+
+.itme1 {
+    padding-left: 15px;
+}
+
+.gia {
+    color: rgb(214, 61, 61);
+    text-align: center;
+}
+
+.daban {
+    display: flex;
+    justify-content: space-between;
+}
+
+.noiban {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sp {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    padding: 80px 20px 50px 20px;
+    justify-content: space-around;
+    border-top: solid 5px rgb(214, 61, 61);
+}
+
+.ten {
+    color: red;
+}
+
+@media screen and ( max-width=390px) {
+    
+}
